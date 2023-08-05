@@ -1,4 +1,4 @@
-package utils;
+package LessonNaoDo.utils;
 
 public class Constant {
     public static final double V_BUS = 20;

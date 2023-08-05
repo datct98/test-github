@@ -1,7 +1,7 @@
-package view;
+package LessonNaoDo.view;
 
-import entities.Product;
-import service.ProductService;
+import LessonNaoDo.entities.Product;
+import LessonNaoDo.service.ProductService;
 
 public class Menu {
     public void displayMenu(){

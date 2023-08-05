@@ -1,6 +1,6 @@
-package utils;
+package LessonNaoDo.utils;
 
-import entities.Product;
+import LessonNaoDo.entities.Product;
 
 public class Data {
     public Product[] listProduct(){

@@ -1,6 +1,6 @@
-package service;
+package LessonNaoDo.service;
 
-import entities.Product;
+import LessonNaoDo.entities.Product;
 
 public class ProductService {
 

@@ -1,6 +1,8 @@
-import entities.Product;
-import service.ProductService;
-import view.Menu;
+package LessonNaoDo;
+
+import LessonNaoDo.entities.Product;
+import LessonNaoDo.service.ProductService;
+import LessonNaoDo.view.Menu;
 
 import java.util.Scanner;
 

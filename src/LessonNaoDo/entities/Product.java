@@ -1,4 +1,4 @@
-package entities;
+package LessonNaoDo.entities;
 
 public class Product {
     private static int autoId=0;
