@@ -1,5 +1,6 @@
 package lab3;
 
+import lab3.entities.History;
 import lab3.entities.Worker;
 import lab3.service.WorkerService;
 import lab3.view.Menu;
@@ -12,19 +13,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         WorkerService service = new WorkerService();
         ArrayList<Worker> workers= new ArrayList<>();
+        ArrayList<History> histories = new ArrayList<>();
         Menu menu = new Menu();
-        menu.displayMenu();
-        int choose = menu.selectMenu(scanner);
-        switch (choose){
-            case 1:
-                Worker worker = service.createWorker(scanner);
-                workers.add(worker);
-                break;
-            case 2:
-            case 3:
-            case 4:
-        }
-
-
+        menu.handleUserSelect(scanner, service, workers, histories);
     }
 }
